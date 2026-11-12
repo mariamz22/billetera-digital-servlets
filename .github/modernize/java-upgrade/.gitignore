@@ -1,0 +1,18 @@
+# Compilados de Maven y Java
+target/
+*.war
+*.ear
+*.jar
+*.class
+
+# Configuraciones locales de VS Code e IDEs
+.vscode/
+.settings/
+.classpath
+.project
+.idea/
+*.iml
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db

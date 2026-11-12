@@ -1,0 +1,378 @@
+2026-11-12T03:41:34.477Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-11-12T03:41:34.477Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "projectPath": "c:\\Users\\benne\\Downloads\\Caso1_BilleteraDigital\\billetera-digital",
+  "event": "precheckCompleted",
+  "phase": "precheck",
+  "status": "succeeded",
+  "details": {
+    "components": [
+      {
+        "name": "jdk",
+        "baseVersion": "17",
+        "targetVersion": "25"
+      }
+    ]
+  }
+}}).
+2026-11-12T03:41:34.478Z [INFO] [Tool.invoke] do invoke.
+2026-11-12T03:41:34.480Z [INFO] Project c:\Users\benne\Downloads\Caso1_BilleteraDigital\billetera-digital is a maven project, try to get java version from pom.xml
+2026-11-12T03:41:34.489Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'precheckCompleted' reported!\nSession ID: 20261112034134,\nSession Dir: c:\\Users\\benne\\Downloads\\Caso1_BilleteraDigital\\billetera-digital\\.github\\modernize\\java-upgrade\\20261112034134"
+}}).
+2026-11-12T03:41:34.490Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-11-12T03:41:34.494Z [INFO] Project java version: 17
+2026-11-12T03:41:34.494Z [INFO] Maven project detected.
+2026-11-12T03:41:34.495Z [INFO] Build tool type: mvn
+2026-11-12T03:41:34.904Z [INFO] JDK: undefined
+2026-11-12T03:41:34.905Z [ERROR] Failed to detect or resolve JDK for the project at c:\Users\benne\Downloads\Caso1_BilleteraDigital\billetera-digital.
+2026-11-12T03:41:34.906Z [WARN] [ReportEventTool] Full project info unavailable, attempting lightweight fallback: UserError: Failed to detect or resolve JDK for the project at c:\Users\benne\Downloads\Caso1_BilleteraDigital\billetera-digital. Please ensure JDK 17 is installed and properly configured on the machine.
+2026-11-12T03:41:34.910Z [INFO] Maven project detected.
+2026-11-12T03:41:34.911Z [INFO] Project c:\Users\benne\Downloads\Caso1_BilleteraDigital\billetera-digital is a maven project, try to get java version from pom.xml
+2026-11-12T03:41:37.363Z [INFO] ---------------------prepare appmod-list-jdks----------------------
+2026-11-12T03:41:37.363Z [INFO] [Tool.prepareInvocation]({name: appmod-list-jdks, input: {
+  "sessionId": "20261112034134"
+}}).
+2026-11-12T03:41:37.364Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-11-12T03:41:37.365Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "List jdks"
+}}).
+2026-11-12T03:41:37.365Z [INFO] ----------------------prepared appmod-list-jdks----------------------
+2026-11-12T03:41:37.385Z [INFO] ----------------------invoke appmod-list-jdks----------------------
+2026-11-12T03:41:37.386Z [INFO] [Tool.invoke]({name: appmod-list-jdks, modelId: auto, input: {
+  "sessionId": "20261112034134"
+}}).
+2026-11-12T03:41:37.386Z [INFO] [Tool.invoke] do invoke.
+2026-11-12T03:41:37.400Z [INFO] [Tool.invoke]({result: {
+  "message": "We found following jdks in your system:\n\n1. Java 27\n   📁 Path: C:\\Program Files\\Java\\jdk-27\\bin\n   🏷️ Source: others\n\nTotal: 1 JDK installation(s) found"
+}}).
+2026-11-12T03:41:37.400Z [INFO] ----------------------invoked appmod-list-jdks----------------------
+2026-11-12T03:41:37.415Z [INFO] ---------------------prepare appmod-list-mavens----------------------
+2026-11-12T03:41:37.416Z [INFO] [Tool.prepareInvocation]({name: appmod-list-mavens, input: {
+  "sessionId": "20261112034134"
+}}).
+2026-11-12T03:41:37.416Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-11-12T03:41:37.416Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "List mavens"
+}}).
+2026-11-12T03:41:37.417Z [INFO] ----------------------prepared appmod-list-mavens----------------------
+2026-11-12T03:41:37.447Z [INFO] ----------------------invoke appmod-list-mavens----------------------
+2026-11-12T03:41:37.447Z [INFO] [Tool.invoke]({name: appmod-list-mavens, modelId: auto, input: {
+  "sessionId": "20261112034134"
+}}).
+2026-11-12T03:41:37.447Z [INFO] [Tool.invoke] do invoke.
+2026-11-12T03:41:37.452Z [INFO] [Tool.invoke]({result: {
+  "message": "No Maven installations found."
+}}).
+2026-11-12T03:41:37.452Z [INFO] ----------------------invoked appmod-list-mavens----------------------
+2026-11-12T03:42:01.191Z [INFO] ---------------------prepare appmod-install-jdk----------------------
+2026-11-12T03:42:01.191Z [INFO] [Tool.prepareInvocation]({name: appmod-install-jdk, input: {
+  "sessionId": "20261112034134",
+  "version": "25",
+  "dest": "C:\\Users\\benne\\.jdk\\jdk-25"
+}}).
+2026-11-12T03:42:01.192Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-11-12T03:42:02.250Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Download and install JDK"
+}}).
+2026-11-12T03:42:02.251Z [INFO] ----------------------prepared appmod-install-jdk----------------------
+2026-11-12T03:42:02.286Z [INFO] ----------------------invoke appmod-install-jdk----------------------
+2026-11-12T03:42:02.287Z [INFO] [Tool.invoke]({name: appmod-install-jdk, modelId: auto, input: {
+  "sessionId": "20261112034134",
+  "version": "25",
+  "dest": "C:\\Users\\benne\\.jdk\\jdk-25"
+}}).
+2026-11-12T03:42:02.287Z [INFO] [Tool.invoke] do invoke.
+2026-11-12T03:43:24.574Z [INFO] [Tool.invoke]({result: {
+  "result": {
+    "name": "java",
+    "path": "C:\\Users\\benne\\.jdk\\jdk-25\\jdk-25.0.2\\bin",
+    "version": "25.0.2"
+  },
+  "message": "JDK 25 is installed at C:\\Users\\benne\\.jdk\\jdk-25\\jdk-25.0.2\\bin",
+  "telemetry": {
+    "tool": "JDK",
+    "version": "25"
+  }
+}}).
+2026-11-12T03:43:24.580Z [INFO] ----------------------invoked appmod-install-jdk----------------------
+2026-11-12T03:43:26.222Z [INFO] ---------------------prepare appmod-install-maven----------------------
+2026-11-12T03:43:26.224Z [INFO] [Tool.prepareInvocation]({name: appmod-install-maven, input: {
+  "sessionId": "20261112034134",
+  "version": "3.9.15",
+  "dest": "C:\\Users\\benne\\.maven"
+}}).
+2026-11-12T03:43:26.225Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-11-12T03:43:27.266Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Download and install Maven"
+}}).
+2026-11-12T03:43:27.268Z [INFO] ----------------------prepared appmod-install-maven----------------------
+2026-11-12T03:43:27.441Z [INFO] ----------------------invoke appmod-install-maven----------------------
+2026-11-12T03:43:27.442Z [INFO] [Tool.invoke]({name: appmod-install-maven, modelId: auto, input: {
+  "sessionId": "20261112034134",
+  "version": "3.9.15",
+  "dest": "C:\\Users\\benne\\.maven"
+}}).
+2026-11-12T03:43:27.443Z [INFO] [Tool.invoke] do invoke.
+2026-11-12T03:43:30.635Z [INFO] [Tool.invoke]({result: {
+  "result": {
+    "name": "mvn",
+    "path": "C:\\Users\\benne\\.maven\\maven-3.9.15\\bin",
+    "version": "3.9.15"
+  },
+  "message": "Maven 3.9.15 is installed at C:\\Users\\benne\\.maven\\maven-3.9.15\\bin",
+  "telemetry": {
+    "tool": "Maven",
+    "version": "3.9.15"
+  }
+}}).
+2026-11-12T03:43:30.637Z [INFO] ----------------------invoked appmod-install-maven----------------------
+2026-11-12T03:43:45.947Z [INFO] ---------------------prepare appmod-confirm-upgrade-plan----------------------
+2026-11-12T03:43:45.949Z [INFO] [Tool.prepareInvocation]({name: appmod-confirm-upgrade-plan, input: {
+  "sessionId": "20261112034134",
+  "autoExecute": true
+}}).
+2026-11-12T03:43:45.950Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-11-12T03:43:45.952Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Auto-executing [upgrade plan](file:///c:/Users/benne/Downloads/Caso1_BilleteraDigital/billetera-digital/.github/modernize/java-upgrade/20261112034134/plan.md)"
+}}).
+2026-11-12T03:43:45.952Z [INFO] ----------------------prepared appmod-confirm-upgrade-plan----------------------
+2026-11-12T03:43:46.068Z [INFO] ----------------------invoke appmod-confirm-upgrade-plan----------------------
+2026-11-12T03:43:46.069Z [INFO] [Tool.invoke]({name: appmod-confirm-upgrade-plan, modelId: auto, input: {
+  "sessionId": "20261112034134",
+  "autoExecute": true
+}}).
+2026-11-12T03:43:46.070Z [INFO] [Tool.invoke] do invoke.
+2026-11-12T03:43:46.072Z [INFO] Upgrade plan confirmed successfully.
+2026-11-12T03:43:46.073Z [INFO] [Tool.invoke]({result: {
+  "message": "Generated plan is reviewed and confirmed by the user! the upgrade process will start now."
+}}).
+2026-11-12T03:43:46.074Z [INFO] ----------------------invoked appmod-confirm-upgrade-plan----------------------
+2026-11-12T04:37:48.435Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-11-12T04:37:48.437Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "sessionId": "20261112034134",
+  "projectPath": "c:\\Users\\benne\\Downloads\\Caso1_BilleteraDigital\\billetera-digital",
+  "event": "upgradeStepStarted",
+  "phase": "execute",
+  "status": "succeeded",
+  "details": {
+    "stepNumber": 3,
+    "stepTitle": "Upgrade the Maven Java target to Java 25"
+  }
+}}).
+2026-11-12T04:37:48.438Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-11-12T04:37:48.439Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-11-12T04:37:48.439Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-11-12T04:37:48.541Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-11-12T04:37:48.542Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "sessionId": "20261112034134",
+  "projectPath": "c:\\Users\\benne\\Downloads\\Caso1_BilleteraDigital\\billetera-digital",
+  "event": "upgradeStepStarted",
+  "phase": "execute",
+  "status": "succeeded",
+  "details": {
+    "stepNumber": 3,
+    "stepTitle": "Upgrade the Maven Java target to Java 25"
+  }
+}}).
+2026-11-12T04:37:48.543Z [INFO] [Tool.invoke] do invoke.
+2026-11-12T04:37:48.545Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'upgradeStepStarted' reported!\nSession ID: 20261112034134,\nSession Dir: c:\\Users\\benne\\Downloads\\Caso1_BilleteraDigital\\billetera-digital\\.github\\modernize\\java-upgrade\\20261112034134"
+}}).
+2026-11-12T04:37:48.546Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-11-12T04:38:19.916Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-11-12T04:38:19.918Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "sessionId": "20261112034134",
+  "projectPath": "c:\\Users\\benne\\Downloads\\Caso1_BilleteraDigital\\billetera-digital",
+  "event": "environmentSetup",
+  "phase": "execute",
+  "status": "succeeded",
+  "details": {
+    "jdkPath": "C:\\Users\\benne\\.jdk\\jdk-25\\jdk-25.0.2\\bin",
+    "buildToolPath": "C:\\Users\\benne\\.maven\\maven-3.9.15\\bin\\mvn"
+  }
+}}).
+2026-11-12T04:38:19.920Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-11-12T04:38:19.921Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-11-12T04:38:19.922Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-11-12T04:38:20.215Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-11-12T04:38:20.216Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "sessionId": "20261112034134",
+  "projectPath": "c:\\Users\\benne\\Downloads\\Caso1_BilleteraDigital\\billetera-digital",
+  "event": "environmentSetup",
+  "phase": "execute",
+  "status": "succeeded",
+  "details": {
+    "jdkPath": "C:\\Users\\benne\\.jdk\\jdk-25\\jdk-25.0.2\\bin",
+    "buildToolPath": "C:\\Users\\benne\\.maven\\maven-3.9.15\\bin\\mvn"
+  }
+}}).
+2026-11-12T04:38:20.218Z [INFO] [Tool.invoke] do invoke.
+2026-11-12T04:38:20.223Z [INFO] Project c:\Users\benne\Downloads\Caso1_BilleteraDigital\billetera-digital is a maven project, try to get java version from pom.xml
+2026-11-12T04:38:20.227Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'environmentSetup' reported!\nSession ID: 20261112034134,\nSession Dir: c:\\Users\\benne\\Downloads\\Caso1_BilleteraDigital\\billetera-digital\\.github\\modernize\\java-upgrade\\20261112034134"
+}}).
+2026-11-12T04:38:20.229Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-11-12T04:38:20.235Z [INFO] Project java version: 25
+2026-11-12T04:38:20.240Z [INFO] Maven project detected.
+2026-11-12T04:38:20.242Z [INFO] Build tool type: mvn
+2026-11-12T04:38:20.244Z [INFO] JDK: {
+  "name": "java",
+  "path": "C:\\Users\\benne\\.jdk\\jdk-25\\jdk-25.0.2\\bin",
+  "version": "25"
+}
+2026-11-12T04:38:20.245Z [INFO] Build tool: {
+  "name": "mvn",
+  "path": "C:\\Users\\benne\\.maven\\maven-3.9.15\\bin\\mvn\\bin",
+  "version": ""
+}
+2026-11-12T04:38:20.247Z [INFO] Project config: {
+  "buildTool": {
+    "path": "C:\\Users\\benne\\.maven\\maven-3.9.15\\bin\\mvn\\bin",
+    "name": "mvn",
+    "version": ""
+  },
+  "jdk": {
+    "path": "C:\\Users\\benne\\.jdk\\jdk-25\\jdk-25.0.2\\bin",
+    "name": "java",
+    "version": "25"
+  },
+  "name": "billetera-digital",
+  "dir": "c:\\Users\\benne\\Downloads\\Caso1_BilleteraDigital\\billetera-digital"
+}
+2026-11-12T04:38:22.473Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-11-12T04:38:22.475Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "sessionId": "20261112034134",
+  "projectPath": "c:\\Users\\benne\\Downloads\\Caso1_BilleteraDigital\\billetera-digital",
+  "event": "baselineSetup",
+  "phase": "execute",
+  "status": "skipped",
+  "message": "Base JDK 17 is not installed in this environment, so the pre-upgrade baseline is skipped."
+}}).
+2026-11-12T04:38:22.476Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-11-12T04:38:22.480Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-11-12T04:38:22.481Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-11-12T04:38:22.656Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-11-12T04:38:22.657Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "sessionId": "20261112034134",
+  "projectPath": "c:\\Users\\benne\\Downloads\\Caso1_BilleteraDigital\\billetera-digital",
+  "event": "baselineSetup",
+  "phase": "execute",
+  "status": "skipped",
+  "message": "Base JDK 17 is not installed in this environment, so the pre-upgrade baseline is skipped."
+}}).
+2026-11-12T04:38:22.658Z [INFO] [Tool.invoke] do invoke.
+2026-11-12T04:38:22.660Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'baselineSetup' reported!\nSession ID: 20261112034134,\nSession Dir: c:\\Users\\benne\\Downloads\\Caso1_BilleteraDigital\\billetera-digital\\.github\\modernize\\java-upgrade\\20261112034134"
+}}).
+2026-11-12T04:38:22.661Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-11-12T04:38:23.876Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-11-12T04:38:23.877Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "sessionId": "20261112034134",
+  "projectPath": "c:\\Users\\benne\\Downloads\\Caso1_BilleteraDigital\\billetera-digital",
+  "event": "upgradeStepCompleted",
+  "phase": "execute",
+  "status": "succeeded",
+  "details": {
+    "stepNumber": 3,
+    "stepTitle": "Upgrade the Maven Java target to Java 25",
+    "commitId": "N/A"
+  }
+}}).
+2026-11-12T04:38:23.878Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-11-12T04:38:23.895Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-11-12T04:38:23.896Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-11-12T04:38:24.097Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-11-12T04:38:24.098Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "sessionId": "20261112034134",
+  "projectPath": "c:\\Users\\benne\\Downloads\\Caso1_BilleteraDigital\\billetera-digital",
+  "event": "upgradeStepCompleted",
+  "phase": "execute",
+  "status": "succeeded",
+  "details": {
+    "stepNumber": 3,
+    "stepTitle": "Upgrade the Maven Java target to Java 25",
+    "commitId": "N/A"
+  }
+}}).
+2026-11-12T04:38:24.099Z [INFO] [Tool.invoke] do invoke.
+2026-11-12T04:38:24.101Z [INFO] Project c:\Users\benne\Downloads\Caso1_BilleteraDigital\billetera-digital is a maven project, try to get java version from pom.xml
+2026-11-12T04:38:24.103Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'upgradeStepCompleted' reported!\nSession ID: 20261112034134,\nSession Dir: c:\\Users\\benne\\Downloads\\Caso1_BilleteraDigital\\billetera-digital\\.github\\modernize\\java-upgrade\\20261112034134"
+}}).
+2026-11-12T04:38:24.104Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-11-12T04:38:24.107Z [INFO] Project java version: 25
+2026-11-12T04:38:24.108Z [INFO] Maven project detected.
+2026-11-12T04:38:24.109Z [INFO] Build tool type: mvn
+2026-11-12T04:38:24.315Z [INFO] JDK: undefined
+2026-11-12T04:38:24.315Z [ERROR] Failed to detect or resolve JDK for the project at c:\Users\benne\Downloads\Caso1_BilleteraDigital\billetera-digital.
+2026-11-12T04:38:24.317Z [INFO] Project c:\Users\benne\Downloads\Caso1_BilleteraDigital\billetera-digital is a maven project, try to get java version from pom.xml
+2026-11-12T04:38:25.436Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-11-12T04:38:25.437Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "sessionId": "20261112034134",
+  "projectPath": "c:\\Users\\benne\\Downloads\\Caso1_BilleteraDigital\\billetera-digital",
+  "event": "upgradeValidationCompleted",
+  "phase": "execute",
+  "status": "succeeded",
+  "details": {
+    "stepNumber": 4,
+    "stepTitle": "Final Validation",
+    "commitId": "N/A"
+  }
+}}).
+2026-11-12T04:38:25.437Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-11-12T04:38:25.438Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-11-12T04:38:25.438Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-11-12T04:38:25.497Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-11-12T04:38:25.497Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "sessionId": "20261112034134",
+  "projectPath": "c:\\Users\\benne\\Downloads\\Caso1_BilleteraDigital\\billetera-digital",
+  "event": "upgradeValidationCompleted",
+  "phase": "execute",
+  "status": "succeeded",
+  "details": {
+    "stepNumber": 4,
+    "stepTitle": "Final Validation",
+    "commitId": "N/A"
+  }
+}}).
+2026-11-12T04:38:25.498Z [INFO] [Tool.invoke] do invoke.
+2026-11-12T04:38:25.501Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'upgradeValidationCompleted' reported!\nSession ID: 20261112034134,\nSession Dir: c:\\Users\\benne\\Downloads\\Caso1_BilleteraDigital\\billetera-digital\\.github\\modernize\\java-upgrade\\20261112034134"
+}}).
+2026-11-12T04:38:25.502Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-11-12T04:38:26.570Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-11-12T04:38:26.571Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "sessionId": "20261112034134",
+  "projectPath": "c:\\Users\\benne\\Downloads\\Caso1_BilleteraDigital\\billetera-digital",
+  "event": "planExecutionCompleted",
+  "phase": "execute",
+  "status": "succeeded"
+}}).
+2026-11-12T04:38:26.571Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-11-12T04:38:26.572Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-11-12T04:38:26.572Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-11-12T04:38:26.733Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-11-12T04:38:26.735Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "sessionId": "20261112034134",
+  "projectPath": "c:\\Users\\benne\\Downloads\\Caso1_BilleteraDigital\\billetera-digital",
+  "event": "planExecutionCompleted",
+  "phase": "execute",
+  "status": "succeeded"
+}}).
+2026-11-12T04:38:26.735Z [INFO] [Tool.invoke] do invoke.
+2026-11-12T04:38:26.747Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'planExecutionCompleted' reported!\nSession ID: 20261112034134,\nSession Dir: c:\\Users\\benne\\Downloads\\Caso1_BilleteraDigital\\billetera-digital\\.github\\modernize\\java-upgrade\\20261112034134"
+}}).
+2026-11-12T04:38:26.748Z [INFO] ----------------------invoked appmod-report-event----------------------
